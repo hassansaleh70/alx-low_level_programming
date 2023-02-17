@@ -1,10 +1,10 @@
 #include <stdio.h>
 /**
-* main - A program to print in puts
-* Return: 0 (Success) 
-*/
+ * main - program to output by printf
+ * Return: 0 (Success)
+ */
 int main(void)
 {
-puts("with proper grammar, but the outcome is a piece of art,");
-return (0);
+        printf("with proper grammar, but the outcome is a piece of art,\n");
+        return (0);
 }
