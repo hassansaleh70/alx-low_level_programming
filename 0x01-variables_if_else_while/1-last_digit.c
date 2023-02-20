@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <time,h>
+#include <time.h>
 /**
  * main - A program that make somthing
  * Return: 0 (Success)
