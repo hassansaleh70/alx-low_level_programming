@@ -3,6 +3,8 @@
  * Write a function that prints a string, followed by a new line.
  *
  */
+void _puts_recursion(char *);
+
 int factorial(int n)
 {
 	if (n == 0)
