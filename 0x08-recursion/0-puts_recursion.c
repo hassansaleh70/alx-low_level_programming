@@ -1,23 +1,20 @@
-#include <stdio.h>
+#include "holberton.h"
+
 /**
- * Write a function that prints a string, followed by a new line.
+ * _puts_recursion - a function that prints a new line
  *
- */
-void _puts_recursion(char *);
+ * @s: the string
+ *
+ * Return: nothing
+*/
 
-int factorial(int n)
+void _puts_recursion(char *s)
 {
-	if (n == 0)
+	if (*s != '\0')
 	{
-		return (1);
+		_putchar(*s);
+		_puts_recursion(s + 1);
 	}
-	return (n * factorial(n - 1));
-}
-int main(void)
-{
-	int f;
-
-	f = factorial(5);
-	printf("5! = %d\n", f);
-		return (0);
+	else
+		_putchar('\n');
 }
